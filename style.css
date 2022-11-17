@@ -1,0 +1,17 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+#hero {
+  border: 1px solid black;
+  background-image: url(./NYC.jpg);
+  height: 500px;
+  background-position: center;
+  background-origin: center;
+  background-size: cover;
+}
+#hero-dark {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.433);
+}

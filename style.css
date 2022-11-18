@@ -14,4 +14,18 @@
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.433);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#bornagain {
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  color: blanchedalmond;
+  font-size: 600%;
+}
+#description {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:blanchedalmond;
+  font-size: 300%;
 }

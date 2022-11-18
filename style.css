@@ -66,8 +66,12 @@ body{
 }
 #article {
   border: 1px solid black;
-  height: 500px;
+  height: auto;
   width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 #foliage {
   border:10px solid salmon;

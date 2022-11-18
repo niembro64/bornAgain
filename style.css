@@ -2,10 +2,17 @@
   padding: 0%;
   margin: 0%;
 }
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
 #hero {
   border: 1px solid black;
   background-image: url(./NYC.jpg);
   height: 500px;
+  width:100%;
   background-position: center;
   background-origin: center;
   background-size: cover;
@@ -20,12 +27,57 @@
   align-items: center;
 }
 #bornagain {
-  font-family:Georgia, 'Times New Roman', Times, serif ;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: blanchedalmond;
   font-size: 600%;
 }
 #description {
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  color:blanchedalmond;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: blanchedalmond;
   font-size: 300%;
+}
+#blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width:100%;
+}
+#blogtitles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#Home {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+}
+#articles {
+  border: 1px solid red;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#article {
+  border: 1px solid black;
+  height: 500px;
+  width: 800px;
+}
+#foliage {
+  border:10px solid salmon;
+  border-radius: 100px;
+}
+#foliage:hover {
+  border:10px solid blue;
+  border-radius: 100px;
+}
+#foliage:active {
+  border:10px solid green;
+  border-radius: 100px;
 }
